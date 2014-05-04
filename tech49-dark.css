@@ -1,0 +1,117 @@
+/*
+
+    Name: Tech49 Dark
+    Modified by Kevin Marchand (http://github.com/kmarchand)
+    Color scheme copied from Sublime Text theme: https://github.com/oliverseal/tech49-theme
+
+    Original iPython CSS:
+
+        Name:       Base16 Monokai Dark
+        Author:     Wimer Hazenberg (http://www.monokai.nl)
+
+        CodeMirror template adapted for IPython Notebook by Nikhil Sonnad (https://github.com/nsonnad/base16-ipython-notebook)
+        CodeMirror template by Jan T. Sott (https://github.com/idleberg/base16-chrome-devtools)
+        Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+
+*/
+
+/* Uncomment to use a custom font*/
+div#notebook, div.CodeMirror, div.output_area pre, div.output_wrapper, div.prompt {
+  font-family: 'Inconsolata', monospace !important;
+}
+
+
+/* GLOBALS */
+body {background-color: #272822;}
+/*body {background-color: #000000;}*/
+a {color: #66C5D5;}
+
+/* INTRO PAGE */
+.toolbar_info, .list_container {color: #f5f4f1;}
+
+/* NOTEBOOK */
+
+/* comment out this line to bring the toolbar back */
+div#maintoolbar, div#header {display: none !important;}
+
+div#notebook {border-top: none;}
+
+/*div.input_area {background-color: #272822;}*/
+div.input_area {background-color: #35362e;}
+div.input_area pre {color: #f8f8f2;}
+
+div.input_prompt {color: #cc6633;}
+div.output_prompt {color: #99aaa8;}
+div.input_area {
+  border-radius: 0px;
+  border: 1px solid #49483e;
+}
+div.output_area pre {font-weight: normal; color: #f8f8f2;}
+
+
+.rendered_html table, .rendered_html th, .rendered_html tr, .rendered_html td {
+  border: 1px  #f8f8f2 solid;
+  color: #f8f8f2;
+}
+div.output_html { font-family: sans-serif; }
+table.dataframe tr {border: 1px #f8f8f2;}
+
+div.cell.selected {border-radius: 0px;}
+div.cell.edit_mode {border-radius: 0px; border: thin solid #66C5D5;}
+div.text_cell_render, div.output_html {color: #f8f8f2;}
+
+span.ansiblack {color: #383830;}
+span.ansiblue {color: #a1efe4;}
+span.ansigray {color: #a59f85;}
+span.ansigreen {color: #a6e22e;}
+span.ansipurple {color: #ae81ff;}
+span.ansired {color: #f92672;}
+span.ansiyellow {color: #f4bf75;}
+
+div.output_stderr {background-color: #240606;}
+div.output_stderr pre {color: #894b4b;}
+
+.cm-s-ipython.CodeMirror {background: #000000; color: #f5f4f1;}
+.cm-s-ipython div.CodeMirror-selected {background: #383830 !important;}
+.cm-s-ipython .CodeMirror-gutters {background: #000000; border-right: 0px;}
+.cm-s-ipython .CodeMirror-linenumber {color: #75715e;}
+.cm-s-ipython .CodeMirror-cursor {border-left: 1px solid #a59f85 !important;}
+
+.cm-s-ipython span.cm-comment {color: #314146;}
+.cm-s-ipython span.cm-atom {color: #FC6A49 ;}
+.cm-s-ipython span.cm-number {color: #FC6A49 ;}
+
+.cm-s-ipython span.cm-property, .cm-s-ipython span.cm-attribute {color: #C7D49F;}
+.cm-s-ipython span.cm-keyword {color: #C7D49F;}
+.cm-s-ipython span.cm-string {color: #8C9472;}
+.cm-s-ipython span.cm-operator {color: #66C5D5;}
+.cm-s-ipython span.cm-builtin {color: #66C5D5;}
+
+.cm-s-ipython span.cm-variable {color: #9DC3BF;}
+.cm-s-ipython span.cm-variable-2 {color: #9DC3BF;}
+.cm-s-ipython span.cm-def {color: #66C5D5;}
+.cm-s-ipython span.cm-error {background: #620505; color: #a59f85;}
+.cm-s-ipython span.cm-bracket {color: #f8f8f2;}
+.cm-s-ipython span.cm-tag {color: #f92672;}
+.cm-s-ipython span.cm-link {color: #66C5D5;}
+
+.cm-s-ipython .CodeMirror-matchingbracket { text-decoration: underline; color: #f5f4f1 !important;}
+
+/*Markdown Highlighting*/
+span.cm-header.cm-header-1 {color: #66C5D5;}
+span.cm-header.cm-header-2 {color: #66C5D5;}
+span.cm-header.cm-header-3 {color: #66C5D5;}
+span.cm-header.cm-header-4 {color: #66C5D5;}
+span.cm-header.cm-header-5 {color: #66C5D5;}
+span.cm-header.cm-header-6 {color: #66C5D5;}
+.cm-s-default .cm-variable-2 {color: #C7D49F;}
+.cm-s-default .cm-link {color: #66C5D5;}
+.cm-s-default .cm-string {color: #cc6633;}
+code.language-python {background-color: #191B20;}
+pre .keyword {color: #C7D49F;}
+pre .string {color: #8C9472;}
+pre .operator {color: #66C5D5;}
+pre .builtin {color: #66C5D5;}
+pre .variable {color: #9DC3BF;}
+pre .variable-2 {color: #9DC3BF;}
+pre .def {color: #66C5D5;}
