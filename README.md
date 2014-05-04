@@ -4,6 +4,7 @@ Custom style sheets for [IPython Notebook][1]
 
 Installation instructions at [Base 16 for IPython Notebook][2]
 
+![screenshot](https://raw.githubusercontent.com/kmarchand/tech49-ipython-notebook/master/tech49-dark_screenshot.png "Screenshot")
 
 ## Credits
 
